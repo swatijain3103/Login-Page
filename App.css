@@ -1,0 +1,72 @@
+body {
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  min-height: 100vh;
+}
+ .form-container {
+  background-color: white; 
+  padding: 100px;
+  margin: 100px; 
+ }
+
+.form-field {
+  width: 100%;
+  /* ye label or input ko upar neeche le aayegi */
+  padding: 12px 20px;
+  /* ye input or border ke beech ki distance ko badha dega */
+  margin: 4px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  /* isse halki si outline ho jayegi input box pr */
+  border-radius: 4px;
+  /* isse borner ke corner curve ho jayenge */
+  box-sizing: border-box;
+
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+/* sizing of whole box increases */
+
+input {
+  background: #f2f2f2;
+}
+.header {
+  text-align: center;
+  margin-top: auto;
+}
+.btn {
+  width:60px;
+  color:antiquewhite;
+  background-color:black;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  /* iss margin se hi submit button center m aaya */
+}
+.error{
+  display: block;
+  color:red;
+  width: fit-content;
+  
+}
+.success{
+  display: block;
+  color:darkgreen;
+  width: fit-content;
+  font-size:x-small;
+
+}
+
+
+
+
+
+ 
+
+
